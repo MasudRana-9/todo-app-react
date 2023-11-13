@@ -1,0 +1,21 @@
+.todo-search {
+    margin : 0 auto;
+    width: 50%;
+}
+
+.todo-search input {
+    border  : 1px solid #f1f1f1;
+    padding : 8px;
+    outline: none;
+    width: 83%;
+    border-radius: 5px;
+}
+
+.todo-search button {
+    background-color: greenyellow;
+    padding : 8px;
+    border : none ;
+    color : #000;
+    margin-left  : 5px;
+    cursor: pointer;
+}

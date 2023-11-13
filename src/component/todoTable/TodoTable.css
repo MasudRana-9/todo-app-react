@@ -1,0 +1,62 @@
+
+.todo-view table {
+    width : 100%;
+    margin-top : 10px;
+}
+
+.todo-view table , th , td  {
+    border : 1px solid #f1f1f1;
+    border-collapse: collapse;
+    padding  : 6px;
+}
+
+.main-tr td:last-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-tr td:last-child button {
+    color : #fff;
+    border : none;
+    padding : 5px;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.main-tr td:last-child button:first-child {
+    background-color: green;
+}
+
+.main-tr td:last-child button:last-child {
+    background-color: red;
+}
+
+
+
+
+/**************pagination*****************/
+.pagination {
+    padding : 10px;
+    border : 1px solid #f1f1f1;
+    text-align: center;
+}
+
+.pagination button {
+    text-decoration : none;
+    border : 1px solid #f1f1f1;
+    padding : 8px;
+    margin-right : 8px;
+    font-weight: bold;
+    text-align: center;
+    background: #000;
+    color : #fff;
+    border-radius : 5px;
+    outline : none;
+    cursor : pointer
+}
+
+button:disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
